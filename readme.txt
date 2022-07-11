@@ -34,6 +34,10 @@ Node Practices
         $[progect-ex02] npm init -y
 
 5. Module
+    1) 코어 모듈: node에서 제공해 주는 모듈(fs,os, ...)
+    2) 파일 모듈: 파일 경로로 불러와서 모듈 안의 함수, 객체를 사용한다.
+    3) npm 모듈: npm을 통해서 node_modules에 설치하고 사용하는 모듈
+    
 6.
 7.
 8.

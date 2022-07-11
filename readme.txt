@@ -21,10 +21,18 @@ Node Practices
         npm i ejs           [local install, general dependency]
         npm i -D nodemon    [local install, dev. dependency]
         npm i -g gulp       [global install, general dependency]
-        npx gulp --version
+        npx gulp --version (설치 테스트)
     4) 패키지 삭제 예제
-        
+        npm un ejs           [local install 삭제]
+        npm un -g gulp       [global install 삭제]
+        npx gulp --vesion (삭제 테스트)
+
 4. Node(JavaScript) Project 생성
+    1) 프로젝트 생성(mkdir)
+    2) 프로젝트 이동(cd)
+    3) 프로젝트 초기화: 프로젝트 메인페스트(mainfest) 파일인 pakage.json을 생성
+        $[progect-ex02] npm init -y
+
 5. Module
 6.
 7.
